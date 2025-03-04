@@ -37,6 +37,9 @@ p {
   padding: 24px;
   width: 440px;
   background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
 }
 
 .item{
@@ -44,7 +47,6 @@ p {
   padding: 16px;
   width: 392px;
   background-color: #f6f6fe;
-  margin-bottom: 24px;
 }
 h2{
   font-weight: 600;
