@@ -76,5 +76,22 @@ h2{
 /* #endregion */
 
 /* #region task2 */
+.gallery{
+  display: flex;
+  flex-direction: row;
+  column-gap: 12px;
+  row-gap: 48px;
+  min-width: 1440px;
+  padding: 100px 156px;
+  background-color: #fff;
+  flex-wrap: wrap;
+}
+.gallery-img{
+  width: 360px;
+  height: 300px;
+}
+/* #endregion */
+
+/* #region task3 */
 
 /* #endregion */
