@@ -17,7 +17,7 @@ ul {
   list-style-type: none;
   margin-top: 0;
   margin-bottom: 0;
-  padding-left: 0;
+  /* padding-left: 0; */
 }
 
 h1,
@@ -78,13 +78,14 @@ h2{
 /* #region task2 */
 .gallery{
   display: flex;
-  flex-direction: row;
-  column-gap: 12px;
-  row-gap: 48px;
-  min-width: 1440px;
+  align-items: center;
+  justify-content: start;
+  flex-wrap: wrap;
+  column-gap: 6px;
+  row-gap: 36px;
+  max-width: 1440px;
   padding: 100px 156px;
   background-color: #fff;
-  flex-wrap: wrap;
 }
 .gallery-img{
   width: 360px;
