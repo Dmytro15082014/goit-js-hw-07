@@ -94,5 +94,27 @@ h2{
 /* #endregion */
 
 /* #region task3 */
-
+.container-task3{
+    border-radius: 8px;
+    padding: 24px;
+    max-width: 408px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.input-task3{
+    border: 1px solid #808080;
+    border-radius: 4px;
+    width: 360px;
+    height: 40px;
+    padding: 8px 16px;
+}
+.task3-title{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 133%;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+}
 /* #endregion */
