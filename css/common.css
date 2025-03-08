@@ -14,7 +14,7 @@ body {
 }
 
 ul {
-  list-style-type: none;
+  /* list-style-type: none; */
   margin-top: 0;
   margin-bottom: 0;
   /* padding-left: 0; */
@@ -120,5 +120,42 @@ h2{
 /* #endregion */
 
 /* #region task4 */
+.login-form{
+    border-radius: 8px;
+    padding: 24px;
+    width: 408px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.label-task4{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+    display: flex;
+    flex-direction: column;
+}
+.input-task4{
+    border: 1px solid #808080;
+    border-radius: 4px;
+    width: 360px;
+    height: 40px;
+    padding: 8px;
+}
+.btn-task4{
+    border-radius: 8px;
+    padding: 8px 16px;
+    width: 86px;
+    height: 40px;
+    margin-top: 8px;
+    background-color: #4e75ff;
+    color: #ffffff;
+}
+/* #endregion */
+
+/* #region task5 */
 
 /* #endregion */
