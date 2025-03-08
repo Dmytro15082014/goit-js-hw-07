@@ -193,5 +193,67 @@ h2{
 /* #endregion */
 
 /* #region task6 */
-
+#controls{
+    border-radius: 8px;
+    padding: 32px;
+    width: 486px;
+    height: 104px;
+    background-color: #f6f6fe;
+    display: flex;
+    gap: 16px;
+}
+.box-quantity{
+    border: 1px solid #808080;
+    border-radius: 8px;
+    padding: 8px 50px;
+    width: 150px;
+    height: 40px;
+    background-color: #f6f6fe;
+}
+.box-create{
+    border-radius: 8px;
+    padding: 8px 16px;
+    width: 120px;
+    height: 40px;
+    background-color: #4e75ff;
+    border: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+    transition: background-color, 500ms, cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.box-create:hover {
+    background-color: blue;
+}
+.box-destroy{
+    border-radius: 8px;
+    padding: 8px 16px;
+    width: 120px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    background-color: #ff4e4e;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    color: #fff;
+    transition: background-color, 500ms, cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.box-destroy:hover {
+  background-color: red;
+}
+.boxes{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 44px;
+  padding: 32px;
+  width: 486px;
+}
+.box-random{
+  
+}
 /* #endregion */
