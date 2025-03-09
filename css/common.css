@@ -246,14 +246,12 @@ p {
 .box-destroy:hover {
   background-color: red;
 }
-.boxes{
+#boxes{
   display: flex;
   flex-wrap: wrap;
   gap: 44px;
   padding: 32px;
-  width: 486px;
+  min-width: 486px;
 }
-.box-random{
-  z-index: 999;
-}
+
 /* #endregion */
