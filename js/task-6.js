@@ -21,7 +21,7 @@ function destroyBoxes() {
 function handleCreateBoxes() {
   if (boxQuantity.value <= 100 && boxQuantity.value >= 0) {
     const result = createBoxes(boxQuantity.value);  
-    boxContainer.insertAdjacentHTML("afterbegin", result.join(""));
+    boxContainer.innerHTML = result.join("");
   };
   boxQuantity.value = null;  
 };

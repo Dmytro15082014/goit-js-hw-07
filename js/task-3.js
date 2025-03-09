@@ -9,5 +9,5 @@ function handleName(event) {
         outputEl.textContent = "Anonymous";
     } else {
         outputEl.textContent = event.target.value.trim();
-    }
+    };
 }

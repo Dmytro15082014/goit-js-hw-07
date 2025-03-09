@@ -31,6 +31,7 @@ function createMarkup(arr) {
   const markup = arr.map((img) => {
     return `<li><img src =${img.url} alt="${img.alt}" class="gallery-img"></li>`
   }).join();
+  
   ulGallery.insertAdjacentHTML("afterbegin", markup);
 };
 
